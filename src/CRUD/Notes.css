@@ -1,0 +1,71 @@
+div.notes{
+    width: 600px;
+    margin: 100px auto;
+    clear:both;
+    
+}
+
+div.notes .new_note {
+    float:right;
+    color: greenyellow;
+    font-size: large;
+}
+div.notes img{
+    cursor: pointer;
+    vertical-align: sub;
+}
+
+div.notes div{
+    border: 1px #999 solid;
+    padding: 5px;
+    width: 600px;
+    min-height: 50px;
+    margin: 0px 20px 15px 0px;
+    float: left;
+    position: relative;
+    background-color: #361F36;
+    color: #fff;
+}
+div.notes p {
+    color: white;
+}
+
+div.notes div p{
+    text-align: right;
+    padding: 15px 0px;
+}
+
+div.notes div a {
+    color: lightgreen;
+}
+div.notes div>img {
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    cursor: pointer;
+}
+
+div.notes h3, div.notes h2 {
+    clear: both;
+    color: white;
+    padding-bottom: 20px;
+}
+
+div.notes div.newMessage{
+    width: auto;
+    position: relative;
+}
+
+div.notes div.newMessage textarea {
+    border: 0px #fff solid;
+    width: 400px;
+    height: 150px;
+}
+
+div.notes div.newMessage form img {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    top: auto;
+    cursor: pointer;
+}
